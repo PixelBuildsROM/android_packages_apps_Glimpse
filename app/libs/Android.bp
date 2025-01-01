@@ -1,5 +1,5 @@
 //
-// SPDX-FileCopyrightText: 2023-2024 The LineageOS Project
+// SPDX-FileCopyrightText: The LineageOS Project
 // SPDX-License-Identifier: Apache-2.0
 //
 
@@ -9,7 +9,7 @@ android_library_import {
     name: "Glimpse_androidx.media3_media3-common-nodeps",
     aars: ["androidx/media3/media3-common/1.2.1/media3-common-1.2.1.aar"],
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -24,7 +24,7 @@ android_library_import {
 android_library {
     name: "Glimpse_androidx.media3_media3-common",
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -36,14 +36,13 @@ android_library {
         "androidx.annotation_annotation-experimental",
         "guava",
     ],
-    java_version: "1.7",
 }
 
 android_library_import {
     name: "Glimpse_androidx.media3_media3-container-nodeps",
     aars: ["androidx/media3/media3-container/1.2.1/media3-container-1.2.1.aar"],
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -57,7 +56,7 @@ android_library_import {
 android_library {
     name: "Glimpse_androidx.media3_media3-container",
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -68,14 +67,13 @@ android_library {
         "Glimpse_androidx.media3_media3-common",
         "androidx.annotation_annotation",
     ],
-    java_version: "1.7",
 }
 
 android_library_import {
     name: "Glimpse_androidx.media3_media3-database-nodeps",
     aars: ["androidx/media3/media3-database/1.2.1/media3-database-1.2.1.aar"],
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -89,7 +87,7 @@ android_library_import {
 android_library {
     name: "Glimpse_androidx.media3_media3-database",
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -100,14 +98,13 @@ android_library {
         "Glimpse_androidx.media3_media3-common",
         "androidx.annotation_annotation",
     ],
-    java_version: "1.7",
 }
 
 android_library_import {
     name: "Glimpse_androidx.media3_media3-datasource-nodeps",
     aars: ["androidx/media3/media3-datasource/1.2.1/media3-datasource-1.2.1.aar"],
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -123,7 +120,7 @@ android_library_import {
 android_library {
     name: "Glimpse_androidx.media3_media3-datasource",
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -136,14 +133,13 @@ android_library {
         "androidx.annotation_annotation",
         "androidx.exifinterface_exifinterface",
     ],
-    java_version: "1.7",
 }
 
 android_library_import {
     name: "Glimpse_androidx.media3_media3-decoder-nodeps",
     aars: ["androidx/media3/media3-decoder/1.2.1/media3-decoder-1.2.1.aar"],
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -157,7 +153,7 @@ android_library_import {
 android_library {
     name: "Glimpse_androidx.media3_media3-decoder",
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -168,14 +164,13 @@ android_library {
         "Glimpse_androidx.media3_media3-common",
         "androidx.annotation_annotation",
     ],
-    java_version: "1.7",
 }
 
 android_library_import {
     name: "Glimpse_androidx.media3_media3-exoplayer-nodeps",
     aars: ["androidx/media3/media3-exoplayer/1.2.1/media3-exoplayer-1.2.1.aar"],
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -197,7 +192,7 @@ android_library_import {
 android_library {
     name: "Glimpse_androidx.media3_media3-exoplayer",
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -216,14 +211,13 @@ android_library {
         "androidx.core_core",
         "androidx.exifinterface_exifinterface",
     ],
-    java_version: "1.7",
 }
 
 android_library_import {
     name: "Glimpse_androidx.media3_media3-exoplayer-dash-nodeps",
     aars: ["androidx/media3/media3-exoplayer-dash/1.2.1/media3-exoplayer-dash-1.2.1.aar"],
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -237,7 +231,7 @@ android_library_import {
 android_library {
     name: "Glimpse_androidx.media3_media3-exoplayer-dash",
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -248,14 +242,13 @@ android_library {
         "Glimpse_androidx.media3_media3-exoplayer",
         "androidx.annotation_annotation",
     ],
-    java_version: "1.7",
 }
 
 android_library_import {
     name: "Glimpse_androidx.media3_media3-exoplayer-hls-nodeps",
     aars: ["androidx/media3/media3-exoplayer-hls/1.2.1/media3-exoplayer-hls-1.2.1.aar"],
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -269,7 +262,7 @@ android_library_import {
 android_library {
     name: "Glimpse_androidx.media3_media3-exoplayer-hls",
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -280,14 +273,13 @@ android_library {
         "Glimpse_androidx.media3_media3-exoplayer",
         "androidx.annotation_annotation",
     ],
-    java_version: "1.7",
 }
 
 android_library_import {
     name: "Glimpse_androidx.media3_media3-exoplayer-rtsp-nodeps",
     aars: ["androidx/media3/media3-exoplayer-rtsp/1.2.1/media3-exoplayer-rtsp-1.2.1.aar"],
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -301,7 +293,7 @@ android_library_import {
 android_library {
     name: "Glimpse_androidx.media3_media3-exoplayer-rtsp",
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -312,14 +304,13 @@ android_library {
         "Glimpse_androidx.media3_media3-exoplayer",
         "androidx.annotation_annotation",
     ],
-    java_version: "1.7",
 }
 
 android_library_import {
     name: "Glimpse_androidx.media3_media3-exoplayer-smoothstreaming-nodeps",
     aars: ["androidx/media3/media3-exoplayer-smoothstreaming/1.2.1/media3-exoplayer-smoothstreaming-1.2.1.aar"],
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -333,7 +324,7 @@ android_library_import {
 android_library {
     name: "Glimpse_androidx.media3_media3-exoplayer-smoothstreaming",
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -344,14 +335,13 @@ android_library {
         "Glimpse_androidx.media3_media3-exoplayer",
         "androidx.annotation_annotation",
     ],
-    java_version: "1.7",
 }
 
 android_library_import {
     name: "Glimpse_androidx.media3_media3-extractor-nodeps",
     aars: ["androidx/media3/media3-extractor/1.2.1/media3-extractor-1.2.1.aar"],
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -367,7 +357,7 @@ android_library_import {
 android_library {
     name: "Glimpse_androidx.media3_media3-extractor",
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -380,14 +370,13 @@ android_library {
         "Glimpse_androidx.media3_media3-decoder",
         "androidx.annotation_annotation",
     ],
-    java_version: "1.7",
 }
 
 android_library_import {
     name: "Glimpse_androidx.media3_media3-ui-nodeps",
     aars: ["androidx/media3/media3-ui/1.2.1/media3-ui-1.2.1.aar"],
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -403,7 +392,7 @@ android_library_import {
 android_library {
     name: "Glimpse_androidx.media3_media3-ui",
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -416,14 +405,13 @@ android_library {
         "androidx.media_media",
         "androidx.recyclerview_recyclerview",
     ],
-    java_version: "1.7",
 }
 
 android_library_import {
     name: "Glimpse_com.google.android.material_material-nodeps",
     aars: ["com/google/android/material/material/1.9.0/material-1.9.0.aar"],
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -451,7 +439,7 @@ android_library_import {
 android_library {
     name: "Glimpse_com.google.android.material_material",
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -476,14 +464,13 @@ android_library {
         "androidx.vectordrawable_vectordrawable",
         "androidx.viewpager2_viewpager2",
     ],
-    java_version: "1.7",
 }
 
 java_import {
     name: "Glimpse_com.google.errorprone_error_prone_annotations-nodeps",
     jars: ["com/google/errorprone/error_prone_annotations/2.15.0/error_prone_annotations-2.15.0.jar"],
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -493,7 +480,7 @@ java_import {
 java_library_static {
     name: "Glimpse_com.google.errorprone_error_prone_annotations",
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -501,14 +488,13 @@ java_library_static {
     static_libs: [
         "Glimpse_com.google.errorprone_error_prone_annotations-nodeps",
     ],
-    java_version: "1.7",
 }
 
 java_import {
     name: "Glimpse_com.squareup.okhttp3_okhttp-nodeps",
     jars: ["com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.jar"],
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -518,7 +504,7 @@ java_import {
 java_library_static {
     name: "Glimpse_com.squareup.okhttp3_okhttp",
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -528,13 +514,12 @@ java_library_static {
         "Glimpse_com.squareup.okio_okio",
         "kotlin-stdlib-jdk8",
     ],
-    java_version: "1.7",
 }
 
 java_library_static {
     name: "Glimpse_com.squareup.okio_okio",
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -542,14 +527,13 @@ java_library_static {
     static_libs: [
         "Glimpse_com.squareup.okio_okio-jvm",
     ],
-    java_version: "1.7",
 }
 
 java_import {
     name: "Glimpse_com.squareup.okio_okio-jvm-nodeps",
     jars: ["com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.jar"],
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -559,7 +543,7 @@ java_import {
 java_library_static {
     name: "Glimpse_com.squareup.okio_okio-jvm",
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -568,14 +552,13 @@ java_library_static {
         "Glimpse_com.squareup.okio_okio-jvm-nodeps",
         "kotlin-stdlib-jdk8",
     ],
-    java_version: "1.7",
 }
 
 android_library_import {
     name: "Glimpse_io.coil-kt_coil-nodeps",
     aars: ["io/coil-kt/coil/2.5.0/coil-2.5.0.aar"],
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -589,7 +572,7 @@ android_library_import {
 android_library {
     name: "Glimpse_io.coil-kt_coil",
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -600,14 +583,13 @@ android_library {
         "Glimpse_io.coil-kt_coil-base",
         "kotlin-stdlib-jdk8",
     ],
-    java_version: "1.7",
 }
 
 android_library_import {
     name: "Glimpse_io.coil-kt_coil-base-nodeps",
     aars: ["io/coil-kt/coil-base/2.5.0/coil-base-2.5.0.aar"],
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -630,7 +612,7 @@ android_library_import {
 android_library {
     name: "Glimpse_io.coil-kt_coil-base",
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -650,14 +632,13 @@ android_library {
         "kotlin-stdlib",
         "kotlinx-coroutines-android",
     ],
-    java_version: "1.7",
 }
 
 android_library_import {
     name: "Glimpse_io.coil-kt_coil-gif-nodeps",
     aars: ["io/coil-kt/coil-gif/2.5.0/coil-gif-2.5.0.aar"],
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -673,7 +654,7 @@ android_library_import {
 android_library {
     name: "Glimpse_io.coil-kt_coil-gif",
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -686,14 +667,13 @@ android_library {
         "androidx.vectordrawable_vectordrawable-animated",
         "kotlin-stdlib-jdk8",
     ],
-    java_version: "1.7",
 }
 
 android_library_import {
     name: "Glimpse_io.coil-kt_coil-video-nodeps",
     aars: ["io/coil-kt/coil-video/2.5.0/coil-video-2.5.0.aar"],
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -708,7 +688,7 @@ android_library_import {
 android_library {
     name: "Glimpse_io.coil-kt_coil-video",
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -720,13 +700,12 @@ android_library {
         "androidx.core_core-ktx",
         "kotlin-stdlib-jdk8",
     ],
-    java_version: "1.7",
 }
 
 java_library_static {
     name: "Glimpse_io.github.panpf.zoomimage_zoomimage-core",
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -734,14 +713,13 @@ java_library_static {
     static_libs: [
         "Glimpse_io.github.panpf.zoomimage_zoomimage-core-android",
     ],
-    java_version: "1.7",
 }
 
 android_library_import {
     name: "Glimpse_io.github.panpf.zoomimage_zoomimage-core-android-nodeps",
     aars: ["io/github/panpf/zoomimage/zoomimage-core-android/1.0.2/zoomimage-core-release.aar"],
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -759,7 +737,7 @@ android_library_import {
 android_library {
     name: "Glimpse_io.github.panpf.zoomimage_zoomimage-core-android",
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -774,14 +752,13 @@ android_library {
         "kotlinx-coroutines-android",
         "kotlinx-coroutines-core",
     ],
-    java_version: "1.7",
 }
 
 android_library_import {
     name: "Glimpse_io.github.panpf.zoomimage_zoomimage-core-coil-nodeps",
     aars: ["io/github/panpf/zoomimage/zoomimage-core-coil/1.0.2/zoomimage-core-coil-1.0.2.aar"],
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -796,7 +773,7 @@ android_library_import {
 android_library {
     name: "Glimpse_io.github.panpf.zoomimage_zoomimage-core-coil",
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -808,14 +785,13 @@ android_library {
         "Glimpse_io.github.panpf.zoomimage_zoomimage-core",
         "kotlin-stdlib-jdk8",
     ],
-    java_version: "1.7",
 }
 
 android_library_import {
     name: "Glimpse_io.github.panpf.zoomimage_zoomimage-view-nodeps",
     aars: ["io/github/panpf/zoomimage/zoomimage-view/1.0.2/zoomimage-view-1.0.2.aar"],
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -832,7 +808,7 @@ android_library_import {
 android_library {
     name: "Glimpse_io.github.panpf.zoomimage_zoomimage-view",
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -846,14 +822,13 @@ android_library {
         "androidx.lifecycle_lifecycle-runtime-ktx",
         "kotlin-stdlib-jdk8",
     ],
-    java_version: "1.7",
 }
 
 android_library_import {
     name: "Glimpse_io.github.panpf.zoomimage_zoomimage-view-coil-nodeps",
     aars: ["io/github/panpf/zoomimage/zoomimage-view-coil/1.0.2/zoomimage-view-coil-1.0.2.aar"],
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -868,7 +843,7 @@ android_library_import {
 android_library {
     name: "Glimpse_io.github.panpf.zoomimage_zoomimage-view-coil",
     sdk_version: "34",
-    min_sdk_version: "14",
+    min_sdk_version: "30",
     apex_available: [
         "//apex_available:platform",
         "//apex_available:anyapex",
@@ -880,5 +855,4 @@ android_library {
         "Glimpse_io.github.panpf.zoomimage_zoomimage-view",
         "kotlin-stdlib-jdk8",
     ],
-    java_version: "1.7",
 }

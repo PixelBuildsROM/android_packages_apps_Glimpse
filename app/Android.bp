@@ -35,11 +35,9 @@ android_app {
 
     static_libs: [
         // DO NOT EDIT THIS SECTION MANUALLY
-        "androidx.core_core-ktx",
         "androidx.appcompat_appcompat",
         "androidx-constraintlayout_constraintlayout",
-        "androidx.preference_preference",
-        "Glimpse_com.google.android.material_material",
+        "androidx.core_core-ktx",
         "androidx.exifinterface_exifinterface",
         "Glimpse_androidx.media3_media3-exoplayer",
         "Glimpse_androidx.media3_media3-exoplayer-dash",
@@ -49,12 +47,16 @@ android_app {
         "Glimpse_androidx.media3_media3-ui",
         "androidx.navigation_navigation-fragment-ktx",
         "androidx.navigation_navigation-ui-ktx",
+        "androidx.preference_preference",
         "androidx.recyclerview_recyclerview",
         "androidx.recyclerview_recyclerview-selection",
+        "Glimpse_com.google.android.material_material",
         "Glimpse_io.coil-kt_coil",
         "Glimpse_io.coil-kt_coil-gif",
         "Glimpse_io.coil-kt_coil-video",
+        "Glimpse_io.github.panpf.zoomimage_zoomimage-core-android",
         "Glimpse_io.github.panpf.zoomimage_zoomimage-view-coil",
+        "kotlin-stdlib-jdk8",
     ],
 
     optimize: {
